@@ -1,0 +1,83 @@
+/*
+.littleBox {
+  list-style-type: none;
+  margin-bottom: 100px;
+}
+ 
+
+.littleImage {
+	float: left;
+  margin: 5px;
+  border: 5px solid #333;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+
+}
+
+
+.inputImage{
+	display: block;
+	overflow: hidden;
+}
+*/
+
+.image-list-small li {
+  display: inline-block;
+  
+  margin: 0 12px 30px;
+}
+
+.image-list-small li > a {
+  display: block;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+ 
+  
+  
+  /*
+  width: 210px;
+  height: 140px;
+  */
+
+  margin: 0;
+  padding: 0;
+  border: 4px solid #ffffff;
+  outline: 1px solid #d0d0d0;
+  box-shadow: 0 2px 1px #DDD;
+}
+
+.image-list-small .details {
+  margin-top: 13px;
+}
+
+.inputWeather{
+	width: 120px;
+}
+
+.inputPlaces{
+	width: 210px;
+}
+
+.weather{
+	width: 120px;
+  height: 100px;
+}
+
+.places{
+	width: 210px;
+  height: 140px;
+}
+
+
+
+.contentColumn2{
+	
+}
+
+
+
+
+

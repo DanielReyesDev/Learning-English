@@ -1,0 +1,76 @@
+.btn-primary{
+	color: #2377BA;
+}
+
+.btn-primary:hover{
+	color: white;
+}
+
+
+.lobster{
+	font-family: 'lobster';
+	font-size: 2.5em;
+	color: white;
+}
+
+.lobster-mini{
+	font-family: 'Caviar Dreams';
+	font-size: 1.5em;
+	color: white;
+}
+
+
+.lobster-title{
+	font-family: 'lobster';
+	font-size: 4em;
+	color: white;
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,400,700);
+
+.raleway{
+	font-family: 'Raleway';
+	font-size: 1.3em;
+}
+
+
+
+.hero2 {
+  position: relative;
+  /*height: 30vh;*/
+  height: 60vh;
+  color: #fff;
+  font-family: Lato;
+  text-align: center;
+  background-image: url("http://png.clipart.me/graphics/thumbs/180/geometric-mosaic-pattern-from-black-triangle-texture-abstract-vector-background-illustration_180563135.jpg");
+  -webkit-animation: animatedBackground 30s linear infinite;
+          animation: animatedBackground 30s linear infinite;
+}
+
+@-webkit-keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 600px 0;
+  }
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 600px 0;
+  }
+}
+
+
+
+
+
+#footer{
+	height: auto;
+	background-color: #111111;
+}

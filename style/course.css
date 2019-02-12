@@ -1,0 +1,53 @@
+.container-activities{
+
+	background-color: #ECEBE9;
+}
+
+.table-activities{
+	margin: 0 auto !important;
+	float: none !important;
+	background-color: transparent;
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+	border-collapse: separate;
+	border-spacing: 0 7px;
+}
+
+.clickable-row:hover, .clickable-row-modal:hover{
+	background-color: white;
+}
+
+
+.table-activities th{
+	font-family: 'lobster';
+	font-weight: 700;
+	font-size: 40px;
+	color: #868686;
+	text-align: center;
+	vertical-align: bottom;
+	
+}
+
+.table-activities td{
+	vertical-align: middle;
+	text-align: center;
+	font-size: 20px;
+  
+    line-height: 100px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 900px){
+    
+	.table-activities th {
+		font-size: 25px;
+	}
+
+	.table-activities td {
+		font-size: 15px;
+		vertical-align: top;
+		line-height: 20px;
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+}

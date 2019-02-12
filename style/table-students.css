@@ -1,0 +1,42 @@
+.container-activities{
+
+	background-color: #ECEBE9;
+}
+
+.table-activities{
+
+	margin: 0 auto !important;
+	float: none !important;
+	background-color: transparent;
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+	
+	border: 1px solid #868686;
+}
+
+.clickable-row:hover, .clickable-row-modal:hover{
+	background-color: white;
+}
+
+
+.table-activities th{
+	font-family: 'lobster';
+	font-weight: 700;
+	font-size: 20px;
+	color: #464646;
+	text-align: center;
+	vertical-align: bottom;
+	border: 1px dotted #868686;
+	
+}
+
+.table-activities td{
+	color: black;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 15px;
+    line-height: 100px;
+    border: 1px dotted #868686;
+}
+

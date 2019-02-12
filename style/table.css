@@ -1,0 +1,97 @@
+#table{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#table2{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#tableWrapper th{
+  text-align: center;
+  font-size: 19px;
+  background-color: #006092;
+  color: RGBA(236, 235, 233, 1.00);
+}
+
+#tableWrapper .question{
+  text-align: center;
+  background-color: #006092;
+  color: RGBA(236, 235, 233, 1.00);
+}
+
+#tableWrapper .inputInsideTable{
+  background: rgba(255,255,255,0.1);
+  border: none;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  width: 40px;
+  text-align: center;
+  background-color: #006092;
+  color: RGBA(236, 235, 233, 1.00);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+}
+
+#tableWrapper .inputInsideTable2{
+  background: rgba(255,255,255,0.1);
+  border: none;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #006092;
+  color: RGBA(236, 235, 233, 1.00);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+}
+
+#tableWrapper td{
+  text-align: center;
+  font-size: 14px;
+  background-color: #0087BF;
+  color: white;
+  padding: 20px;
+}
+
+#tableWrapper td:focus{
+  text-align: center;
+  font-size: 14px;
+  background-color: #2B529C;
+  color: white;
+  padding: 20px;
+}
+
+
+#tableWrapper2 td{
+  text-align: center;
+  font-size: 14px;
+  background-color: #ECEBE9;
+  color: black;
+  padding: 20px;
+
+}
+
+#upLeft{border-top-left-radius: 1.1em;}
+#upRight{border-top-right-radius: 1.1em;}
+#downLeft{border-bottom-left-radius: 1.1em;}
+#downRight{border-bottom-right-radius: 1.1em;}
+
+
+.relacionarColumnas{
+  width: 80%;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 900px){
+    #tableWrapper th, #tableWrapper td, #tableWrapper2 td {
+      font-size: 0.9em;
+    }
+}
+

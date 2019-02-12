@@ -1,0 +1,49 @@
+/*Modal*/
+.loginTitle {
+  
+  text-align: center;
+}
+
+.modal-content {
+  /*background: linear-gradient(to bottom right,#DBB369,#E9B950);*/
+  
+  opacity: 0.85;
+}
+.form-control {
+  margin: 1em 0;
+  
+}
+
+/*.form-control, input[type="text"] , input[type="password"] {*/
+#loginMatricula, #loginPassword{
+  font-family: 'lobster';
+  background-color: white;
+  border: dotted;
+  border-width: 1px;
+  border-color: #CB2027;
+  font-size: 18px;
+  color: black;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: gray;  
+}
+.form-control:focus::-webkit-input-placeholder {
+  color: gray;
+}
+
+#loginButton {
+  font-family: 'lobster';
+  border: normal;
+  font-size: 30px;
+  color: #CB2027;
+  padding: 10px 30px;
+}
+
+#loginButton:hover {
+  font-family: 'lobster';
+  border: normal;
+  color: #ECEBE9;
+}

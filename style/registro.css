@@ -1,0 +1,143 @@
+
+
+.row{
+    width: 50%;
+    margin: auto;
+}
+
+.datos{
+	padding-left: 12px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 100px;
+
+	margin-left: 100px;
+	border-bottom: 1px solid #ffffff;
+}
+
+.datosPersonales, .datosAlumno, .datosProfesor{
+	opacity: 1;
+	font-size: 16px;
+}
+
+.registro{
+    height: 100%;
+    width: 100%;
+    background: url(../images/courses/studying.jpg) no-repeat center center #505050;
+    /*background-color: #252827;*/
+    background-size: cover;
+
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+
+    
+    padding-bottom: 100px;
+}
+
+.text {
+  border: none;
+  display: block;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0);
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 14px;
+  transition: all 0.5s ease-in-out;
+}
+
+.text:focus {
+    outline: 0;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.text:focus + span {
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+input[type="text"],
+input[type="password"] {
+    font-family: 'Montserrat', sans-serif;
+    width: 500px;
+    color: #fff;
+}
+
+input {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.nombreCampo{
+    margin-top:10px;
+}
+
+
+
+
+.btnRegistrarse {
+    background-color: #ECECEC;
+    color: black;
+    width: 15%;
+    padding: 10px 20px;
+    display: block;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 200px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+
+
+}
+
+.btnRegistrarse:hover {
+    background: #FFFFFF;
+  box-shadow: 0px 0px 100px #FFFFFF;
+  cursor: pointer;
+}
+
+.btnRegistrarse:focus {
+    outline: none;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 900px){
+    .btnRegistrarse {
+        width: 50%;
+    }
+
+    .text{
+        margin-left: 50px;
+    }
+
+    .row{
+        width: 90%;
+    }
+
+    .datos{
+        margin-top: 90px;
+        margin-bottom: 70px;
+    }
+
+}
+
